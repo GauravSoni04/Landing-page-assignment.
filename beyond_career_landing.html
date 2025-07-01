@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Beyond Career</title>
+  <style>
+    * {margin: 0; padding: 0; box-sizing: border-box;}
+    body {font-family: Arial, sans-serif; line-height: 1.6;}
+    nav {background: #004aad; padding: 1rem; position: sticky; top: 0; color: white;}
+    nav ul {display: flex; list-style: none; justify-content: space-around;}
+    nav a {color: white; text-decoration: none; font-weight: bold;}
+    .hero {background: url('https://source.unsplash.com/1600x600/?career,success') center/cover no-repeat; height: 90vh; color: white; display: flex; align-items: center; justify-content: center; text-align: center;}
+    .hero h1 {font-size: 3rem; background: rgba(0, 0, 0, 0.5); padding: 1rem;}
+    section {padding: 2rem; max-width: 1000px; margin: auto;}
+    .services, .testimonials {display: flex; flex-wrap: wrap; gap: 1rem;}
+    .card {flex: 1 1 45%; background: #f0f0f0; padding: 1rem; border-radius: 8px;}
+    form {display: flex; flex-direction: column; gap: 1rem;}
+    input, textarea {padding: 0.75rem; border: 1px solid #ccc; border-radius: 4px;}
+    button {padding: 0.75rem; background: #004aad; color: white; border: none; border-radius: 4px; cursor: pointer;}
+    footer {text-align: center; padding: 1rem; background: #004aad; color: white;}
+  </style>
+</head>
+<body>
+  <nav>
+    <ul>
+      <li><a href="#hero">Home</a></li>
+      <li><a href="#about">About</a></li>
+      <li><a href="#services">Services</a></li>
+      <li><a href="#testimonials">Testimonials</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </nav>
+
+  <div class="hero" id="hero">
+    <h1>Beyond Career: All About Your Dreams</h1>
+  </div>
+
+  <section id="about">
+    <h2>About Us</h2>
+    <p>Founded by students from IIT Kharagpur, Beyond Career helps students achieve their dreams through mentorship, internships, and career guidance. We believe in empowering the youth to rise above and beyond.</p>
+  </section>
+
+  <section id="services">
+    <h2>Our Services</h2>
+    <div class="services">
+      <div class="card">Career Guidance</div>
+      <div class="card">Internship Opportunities</div>
+      <div class="card">Mentorship Programs</div>
+      <div class="card">Community Engagement</div>
+    </div>
+  </section>
+
+  <section id="testimonials">
+    <h2>Success Stories</h2>
+    <div class="testimonials">
+      <div class="card">"Beyond Career helped me land my dream internship!" - Priya S.</div>
+      <div class="card">"The mentors are amazing and supportive!" - Rohan D.</div>
+    </div>
+  </section>
+
+  <section id="contact">
+    <h2>Contact Us</h2>
+    <form>
+      <input type="text" placeholder="Your Name" required />
+      <input type="email" placeholder="Your Email" required />
+      <textarea rows="5" placeholder="Your Message" required></textarea>
+      <button type="submit">Send</button>
+    </form>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Beyond Career | Connect with us on social media</p>
+  </footer>
+</body>
+</html>
